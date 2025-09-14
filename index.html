@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Emily Ruiz — About</title>
+
+  <!-- assignment-required link -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <!-- optional icons (remove if blocked) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="site-title">Your Name</h1>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap content-wrapper">
+    <main id="about" class="main-content">
+      <img src="images/profile.jpg" alt="Your Name" class="profile">
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ipsum impedit adipisci numquam ea ratione consequatur quidem. Corrupti, a iste sunt unde molestias voluptatem itaque cumque numquam maxime adipisci sed.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quo quis suscipit placeat odio, consectetur tempora iste totam aliquid impedit.
+      </p>
+    </main>
+
+    <aside class="sidebar" aria-labelledby="connect">
+      <h3 id="connect">Connect</h3>
+      <ul class="social">
+        <li><a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</a></li>
+        <li><a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Emily Ruiz</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
