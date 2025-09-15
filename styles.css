@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif; 
     line-height: 1.6; 
     color: #222;
-    background: #f2f4f6 url('images/pattern.png') reapeat fixed;
+    background: #f2f4f6 url('images/pattern.png') repeat fixed;
 }
 
 .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
