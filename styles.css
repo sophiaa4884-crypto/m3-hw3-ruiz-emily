@@ -10,15 +10,18 @@ body { font-family: Arial, sans-serif; line-height: 1.6; background: #f2f4f6; co
 .main-nav li { display: inline-block; margin-left: 18px; }
 .main-nav a { color: white; text-decoration: none; font-weight: 600; }
 
-.content-wrapper { margin-bottom: 20px; }
+.content-wrapper { 
+    margin-bottom: 20px; 
+    background-image: url('images/pattern.png');
+    background-repeat: repeat;
+}
+
 .content-wrapper::after { content: ""; display: table; clear: both; }
 
 .main-content {
   width: 65%;
   float: left;
   padding: 20px;
-  background-image: url('images/pattern.png');
-  background-repeat: repeat;
   background-color: rgba(255,255,255,0.95);
   border: 1px solid #d6dbe0;
 }
