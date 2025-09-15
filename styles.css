@@ -1,5 +1,10 @@
 * { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: Arial, sans-serif; line-height: 1.6; background: #f2f4f6; color:#222; }
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    background: #f2f4f6 url('images/pattern.png');; 
+    color:#222; 
+}
 
 .wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
 
@@ -12,8 +17,8 @@ body { font-family: Arial, sans-serif; line-height: 1.6; background: #f2f4f6; co
 
 .content-wrapper { 
     margin-bottom: 20px; 
-    background-image: url('images/pattern.png');
-    background-repeat: repeat;
+    background: transparent;
+    padding: 20px 0;
 }
 
 .content-wrapper::after { content: ""; display: table; clear: both; }
@@ -22,7 +27,7 @@ body { font-family: Arial, sans-serif; line-height: 1.6; background: #f2f4f6; co
   width: 65%;
   float: left;
   padding: 20px;
-  background-color: rgba(255,255,255,0.95);
+  background-color: #fff;
   border: 1px solid #d6dbe0;
 }
 
@@ -39,7 +44,7 @@ body { font-family: Arial, sans-serif; line-height: 1.6; background: #f2f4f6; co
 .sidebar {
   width: 30%;
   float: right;
-  background: white;
+  background: #fff;
   padding: 20px;
   border: 1px solid #d6dbe0;
 }
