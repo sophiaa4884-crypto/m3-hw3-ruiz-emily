@@ -64,6 +64,13 @@ body {
     font-weight: 600; 
     font-size: 1.1rem;
 }
+.social a img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+    margin-right: 6px;
+}
 
 .site-footer { clear: both; background: #e9eef2; padding: 12px 0; text-align: center; border-top: 1px solid #d6dbe0; }
 
